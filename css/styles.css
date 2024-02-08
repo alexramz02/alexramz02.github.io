@@ -1,0 +1,227 @@
+    /* Universal Styles */
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+    /* Header / Navbar */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+}
+  
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.nav-image img {
+    height: 120px;
+
+}
+
+header .navbar ul {
+    background-color: #156fbc;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+  
+header .navbar ul li a {
+    display: inline-block;
+    margin-right: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.35rem;
+    text-decoration: none;
+    color: white;
+}
+  
+header .navbar ul li a:hover {
+    text-decoration: underline;
+}
+  
+#nav-buton-sell {
+    font-weight: bold;
+}
+
+    /* Main Content */
+
+    /* Mission Statement */
+.mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('../images/row_house.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mission h1 {
+    margin-bottom: 1rem;
+}
+
+.item-1, .item-2 {
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 500px;
+    padding: 50px 40px;
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 2.5rem;
+}
+.item-1 {
+    margin: 6.2rem 0 2rem 0;
+}
+
+.item-2 {
+    margin: 2rem 0 10rem 0;
+}
+
+.item-1 h1, .item-2 h1 {
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+    /* Our People */
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 150px auto;
+    margin-top: 120px;
+}
+
+.team img {
+    display: block;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.people {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.rob-and-crystal {
+    grid-row: 2;
+    grid-column: 1;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 2rem;
+}
+
+.mike {
+    grid-row: 2;
+    grid-column: 2;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 2rem;
+}
+
+.shanel {
+    grid-row: 2;
+    grid-column: 3;
+    padding-left: 50px;
+    padding-right: 50px;
+    line-height: 2rem;
+}
+
+.team h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.team h3 {
+    text-align: center;
+}
+
+    /* Phone Number */
+
+.phone {
+    font-size: 1.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.phone h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+    /* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #dadada;
+}
+    
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .footer ul {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+    
+footer .footer ul li a {
+    display: inline-block;
+    margin-right: 2rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.35rem;
+    text-decoration: none;
+    color: #156fbc;
+}
+    
+footer .nfooter ul li a:hover {
+    text-decoration: underline;
+}
+    
+#nav-buton-sell {
+    font-weight: bold;
+}
+
+.disclaimer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.d1, .d2, .d3 {
+    text-align: center;
+}
+
+.d1 {
+    margin-top: 10px;
+}
+
+.d3 {
+    margin-bottom: 20px;
+}
